@@ -21,7 +21,8 @@ body{
 }
 
 .shadowGalaxy{
-    background-image: url(shadowGalaxy.png);
+    background-image: url(shadowGalaxy.png), linear-gradient(180deg, rgba(38,27,64,0) 5%, rgba(38,27,64,1) 51%, rgba(38,27,64,0) 95%);
+    background-blend-mode: overlay;
     background-position: top center;
     background-repeat: no-repeat;
     height: 100%;
@@ -32,7 +33,7 @@ body{
 }
 
 .navbar{
-    padding: 30px 0;
+    padding: 10px 0;
     z-index: 3;
 }
 
@@ -82,7 +83,7 @@ body{
 .planets{
     position: absolute;
     z-index: 1;
-    top: 98px;
+    top: 50px;
     width: 100%;
     height: 600px;
 }
@@ -93,6 +94,7 @@ body{
 }
 
 .planets .cohete1{
+    top:-80px;
     position: absolute;
     left: 500px;
 }
@@ -127,7 +129,7 @@ body{
 .planets .planet05{
     position: absolute;
     right: 70px;
-    top: 62px;
+    top: 0px;
 }
 
 .planets .bell01{
@@ -548,8 +550,7 @@ body{
 
 .sectionE{
     padding-top: 70px;
-    /* padding-bottom: 60px; */
-    padding-bottom: 190px;
+    padding-bottom: 70px;
 }
 
 .sectionE .btnModal{
@@ -2589,7 +2590,7 @@ div.carsouselPremios{
 
     .planets .bell01 {
         right: 8px;
-        top: 120px;
+        top: 85px;
     }
 
     .burbuja {
