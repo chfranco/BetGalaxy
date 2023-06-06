@@ -1292,7 +1292,7 @@ div.carsouselPremios{
     border-radius: 50%;
     position: absolute;
     transition: all ease 0.3s;
-    right: -9px;
+    right: 5px;
     bottom: 10px;
     line-height: 1.2;
     padding-left: 3px;
