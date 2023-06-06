@@ -451,6 +451,9 @@ body{
     margin-left: -160px;
     margin-top: -95px;
 }
+.cardA .cuyImg{
+    display: none; 
+}
 
 .cardA .card-body{
     margin-left: -60px;
@@ -1539,7 +1542,7 @@ div.carsouselPremios{
         display: none;
     }
     .planetaPremios{
-        display: none;
+        /* display: none; */
     }
     .owl-carousel .owl-prev {
         margin-left: -60px;
@@ -1672,6 +1675,13 @@ div.carsouselPremios{
     .cardA img,
     .cardB img {
         display: none;
+    }
+    .cardA .cuyImg{
+        display: inline-block;
+        width: 110px;
+        height: auto;
+        margin-left: 0;
+        margin-top: 0;
     }
 
     .cardA .card-body {
@@ -2406,6 +2416,13 @@ div.carsouselPremios{
     .cardB img {
         display: none;
     }
+    .cardA .cuyImg{
+        display: inline-block;
+        width: 110px;
+        height: auto;
+        margin-left: 0;
+        margin-top: 0;
+    }
 
     .cardA .card-body {
         margin-left: 0;
@@ -2671,6 +2688,13 @@ div.carsouselPremios{
     .cardA img,
     .cardB img {
         display: none;
+    }
+    .cardA .cuyImg{
+        display: inline-block;
+        width: 110px;
+        height: auto;
+        margin-left: 0;
+        margin-top: 0;
     }
 
     .cardA .card-body {
