@@ -1227,9 +1227,8 @@ div.carsouselPremios{
     height: 23px;
     border-radius: 50%;
     position: absolute;
-    right: -9px;
+    right: 7px;
     bottom: 10px;
-
     transition: all ease 0.3s;
     line-height: 1.2;
     padding-left: 3px;
@@ -1360,7 +1359,7 @@ div.carsouselPremios{
     border-radius: 50%;
     position: absolute;
     transition: all ease 0.3s;
-    right: -9px;
+    right: 7px;
     bottom: 10px;
     line-height: 1.2;
     padding-left: 3px;
